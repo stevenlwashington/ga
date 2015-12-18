@@ -1,0 +1,165 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
+/*navbar*/
+
+a {
+  color: white;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#navbar {
+  padding: 20px 0 20px 0;
+  margin: 0px 0px 0px 0px;
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: visible;
+  z-index: 1;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+  line-height: 220%;
+}
+
+li a:hover {
+    color: black;
+}
+
+/*header*/
+
+header {
+  padding: 5px 0px 70px 0px;
+  margin: 77px -5px 0px -5px;
+  text-align: center;
+  background: url("http://uncleikespotshop.com/wp-content/uploads/2015/02/Seattle1970s_02_1500.jpg") no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+img {
+  margin: 60px 0px 0px 0px;
+  border: 5px solid white;
+  background-size:720px 480px;
+  height:350px;
+  width:270px;
+  border-radius:30%;
+}
+
+.rotate:hover{
+  -webkit-transform: rotateZ(-20deg);
+  -ms-transform: rotateZ(-20deg);
+  transform: rotateZ(-20deg);
+}
+
+/*Content*/
+
+body {
+  text-align: center;
+  color: #2F343B;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+#intro {
+  font-size: 40px;
+  text-align: left;
+  padding: 1px 1px 1px 1px;
+}
+
+#aboutme {
+  padding: 1px 1px 1px 1px;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+}
+
+#heading {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #ccc;
+  border-radius:8px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  position: relative;
+  margin: 3px 0px 0px 200px;
+}
+
+button:hover {
+  border: none;
+  background: rgba(0,0,0,0.6);
+  font: white;
+}
+
+
+@media (max-width: 1168px){
+  li {
+    display: block;
+  }
+  header {
+    margin: 151px 0px 0px 0px;
+  }
+  article {
+    max-width: 300px;
+  }
+  #heading {
+    font-size: 25px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #intro {
+    font-size: 20px;
+  }
+  #copywrite {
+    margin: 0px -35px 0px 0px;
+  }
+}
+
+/*Footer*/
+footer {
+  padding: 40px 0px 50px 0px;
+  margin: 40px -8px 0px -8px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  clear: both;
+  text-align: center;
+}
+
+#contactbar {
+  text-align: center;
+  font-size: 18px;
+  padding: 0px 0px 0px 0px;
+  word-spacing: 50px;
+}
+
+#copywrite {
+  text-align: center;
+  font-size: 12px;
+  padding: 40px 20px 0px 0px;
+  color: #2F343B;
+}
