@@ -6,3 +6,11 @@ Steven Washington About Me Single Page App
 1c. Design a logo to be place in top left corner of fixed toolbar
 1d. Create JS if statement for the copywrite year in footer. Want it to automatically update per current year.
 1e. Create better navigational flow when clicking buttons. I want it to flow slowly rather than a quick jump to the referenced element.
+1f. Better 'easter egg' when hovering over my image :)
+
+2. Resources
+2a. Stack Overflow
+2b. MDN
+2c. Codepen
+2d. Adobe Color CC
+2e. Google Fonts
