@@ -1,3 +1,5 @@
+/*head*/
+
 html{
   width: 100%;
   height: 100%;
@@ -5,7 +7,7 @@ html{
 
 /*navbar*/
 
-a {
+.upper {
   color: white;
   text-decoration:none;
   text-transform: uppercase;
@@ -97,6 +99,17 @@ article {
   margin: 0 auto;
 }
 
+#hawks {
+  color: #69BE28;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  text-decoration: underline lowercase;
+}
+
+#hawks:hover {
+  color: #2F343B;
+}
+
 button {
   background-color: #ccc;
   border-radius:8px;
@@ -115,13 +128,19 @@ button:hover {
   font: white;
 }
 
+#toolsbutt {
+  margin: 3px 0px 60px 200px;
+}
 
 @media (max-width: 1168px){
   li {
     display: block;
   }
   header {
-    margin: 151px 0px 0px 0px;
+    margin: 215px 0px 0px 0px;
+  }
+  #contactbar {
+    padding: 0px 0px 0px 0px; 
   }
   article {
     max-width: 300px;
@@ -135,15 +154,22 @@ button:hover {
   #intro {
     font-size: 20px;
   }
+  #hawks {
+    font-size: 14px;
+  }
+  .upper {
+    font-size: 14px;
+  }
   #copywrite {
-    margin: 0px -35px 0px 0px;
+    margin: -30px -35px 0px 0px;
   }
 }
 
 /*Footer*/
+
 footer {
-  padding: 40px 0px 50px 0px;
-  margin: 40px -8px 0px -8px;
+  padding: 5px 0px 50px 0px;
+  margin: 0px -8px 0px -8px;
   background: rgba(0,0,0,0.5);
   color: white;
   clear: both;
