@@ -5,13 +5,39 @@ html{
   height: 100%;
 }
 
+/*header*/
+
+header {
+  padding: 5px 0px 70px 0px;
+  margin: 76px -8px 0px 0px;
+  text-align: center;
+  background: url("http://uncleikespotshop.com/wp-content/uploads/2015/02/Seattle1970s_02_1500.jpg") no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+img {
+  margin: 60px 0px 0px 0px;
+  border: 5px solid white;
+  background-size:720px 480px;
+  height:350px;
+  width:270px;
+  border-radius:30%;
+}
+
+.rotate:hover{
+  -webkit-transform: rotateZ(-20deg);
+  -ms-transform: rotateZ(-20deg);
+  transform: rotateZ(-20deg);
+}
+
 /*navbar*/
 
 .upper {
   color: white;
   text-decoration:none;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #navbar {
@@ -37,31 +63,6 @@ li a:hover {
     color: black;
 }
 
-/*header*/
-
-header {
-  padding: 5px 0px 70px 0px;
-  margin: 77px -5px 0px -5px;
-  text-align: center;
-  background: url("http://uncleikespotshop.com/wp-content/uploads/2015/02/Seattle1970s_02_1500.jpg") no-repeat;
-  background-size: cover;
-  background-position: initial;
-}
-
-img {
-  margin: 60px 0px 0px 0px;
-  border: 5px solid white;
-  background-size:720px 480px;
-  height:350px;
-  width:270px;
-  border-radius:30%;
-}
-
-.rotate:hover{
-  -webkit-transform: rotateZ(-20deg);
-  -ms-transform: rotateZ(-20deg);
-  transform: rotateZ(-20deg);
-}
 
 /*Content*/
 
@@ -133,6 +134,17 @@ button:hover {
 }
 
 @media (max-width: 1168px){
+  #navbar {
+    padding: 20px -8px 20px 0;
+    margin: 0px 0px 0px 0px;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 1;
+  }
   li {
     display: block;
   }
@@ -157,8 +169,11 @@ button:hover {
   #hawks {
     font-size: 14px;
   }
-  .upper {
+  .upper{
     font-size: 14px;
+  }
+  .lower {
+    font-size: 12px;
   }
   #copywrite {
     margin: -30px -35px 0px 0px;
@@ -178,9 +193,8 @@ footer {
 
 #contactbar {
   text-align: center;
-  font-size: 18px;
   padding: 0px 0px 0px 0px;
-  word-spacing: 50px;
+  word-spacing: 60px;
 }
 
 #copywrite {
@@ -188,4 +202,10 @@ footer {
   font-size: 12px;
   padding: 40px 20px 0px 0px;
   color: #2F343B;
+}
+
+.lower {
+  color: white;
+  text-decoration:none;
+  text-transform: uppercase;
 }
